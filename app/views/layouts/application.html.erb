@@ -7,11 +7,21 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="devise-">
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><h1>The Site</h1></li>
+				</ul>
+	        </div>
+	    </div>
+	</nav
 
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
 
 <%= yield %>
-
+</div>
 </body>
 </html>
